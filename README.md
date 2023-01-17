@@ -16,4 +16,4 @@ This is a lightly scaffolded Sphinx project that uses the following:
 
 ## Getting started
 
-> :point_right: **TODO**: _Help people started with this thing. Srsly._
+> :point_right: **TODO**: _Help people get started with this thing. Srsly._
