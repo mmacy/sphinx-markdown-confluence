@@ -24,7 +24,9 @@ extensions = [
     'myst_parser',
 ]
 
-templates_path = ['_templates']
+source_suffix = '.md'
+
+templates_path = ['templates']
 exclude_patterns = []
 
 language = 'en'
@@ -33,7 +35,7 @@ language = 'en'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_static_path = ['static']
 
 # -- Options for intersphinx extension ---------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#configuration
