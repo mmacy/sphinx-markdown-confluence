@@ -1,11 +1,17 @@
-# Welcome to Scaffolded Sphinx Project
+# Index page right here
 
-This is the intro.
+Blahblah.
 
-## Heading at second level.
+```{toctree}
+---
+caption: "Index"
+hidden:
+glob:
+titlesonly:
+maxdepth: 3
+---
 
-More stuff.
-
-## Another heading.
-
-Even more stuff.
+readme_stub
+subdir/index
+*
+```

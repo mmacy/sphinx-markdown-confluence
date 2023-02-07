@@ -37,6 +37,8 @@ language = 'en'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['static']
 
+html_css_files = ['static/css/custom.css']
+
 # -- Options for intersphinx extension ---------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#configuration
 
